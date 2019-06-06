@@ -8,14 +8,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.z.viewstudy.view.CustomTitleView
+    <!--<com.z.viewstudy.view.CustomTitleView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         custom:titleText="1242"
         android:padding="10dp"
         custom:titleTextColor="#ff00ff"
         custom:titleTextSize="40sp"
-        />
+        />-->
 
+<com.z.viewstudy.view.SimpleLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/kit3_show2"/>
+
+</com.z.viewstudy.view.SimpleLayout>
 
 </android.support.constraint.ConstraintLayout>
